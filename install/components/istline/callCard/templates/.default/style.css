@@ -1,0 +1,140 @@
+.calllayer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.59); }
+  .calllayer .left {
+    float: left; }
+  .calllayer .right {
+    float: right; }
+  .calllayer .wrp-call {
+    border-radius: 30px;
+    background-color: #30353b;
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 47px white;
+    margin-top: 50px; }
+    .calllayer .wrp-call * {
+      box-sizing: border-box;
+      color: white;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center; }
+    .calllayer .wrp-call > div {
+      clear: both;
+      width: 100%;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      display: block; }
+    .calllayer .wrp-call .shadowblock {
+      box-shadow: 0px 2px 10px 2px black, 0px 0px 4px 1px white;
+      border-bottom: 1px solid white;
+      padding: 0; }
+    .calllayer .wrp-call .header {
+      padding: 20px 0px; }
+      .calllayer .wrp-call .header > div {
+        display: inline-block;
+        text-align: center;
+        line-height: 1.5em;
+        vertical-align: middle; }
+      .calllayer .wrp-call .header .logocall {
+        width: 10%; }
+      .calllayer .wrp-call .header .cid {
+        width: 80%;
+        font-size: 2em; }
+      .calllayer .wrp-call .header .but.close {
+        width: 9%; }
+        .calllayer .wrp-call .header .but.close img {
+          cursor: pointer;
+          border-radius: 40%;
+          padding: 5px; }
+          .calllayer .wrp-call .header .but.close img:hover {
+            box-shadow: 0 0 5px white; }
+    .calllayer .wrp-call .contacts > div {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      width: 100%; }
+    .calllayer .wrp-call .contacts * {
+      display: inline-block;
+      vertical-align: middle; }
+    .calllayer .wrp-call .contacts .separator {
+      display: block; }
+      .calllayer .wrp-call .contacts .separator * {
+        height: 1px; }
+      .calllayer .wrp-call .contacts .separator .bordered {
+        width: 25%;
+        border-bottom: 1px solid white;
+        box-shadow: 0px 2px 9px 1px black; }
+      .calllayer .wrp-call .contacts .separator .nobordered {
+        width: 49%; }
+    .calllayer .wrp-call .contacts .itemwrap .entity-wrp {
+      width: 50%;
+      padding: 5px;
+      border-right: 2px solid white; }
+      .calllayer .wrp-call .contacts .itemwrap .entity-wrp .entitylogo {
+        width: 30%;
+        padding-right: 10px; }
+        .calllayer .wrp-call .contacts .itemwrap .entity-wrp .entitylogo img {
+          max-width: 100%;
+          max-height: 100%; }
+      .calllayer .wrp-call .contacts .itemwrap .entity-wrp .contactdata {
+        width: 70%;
+        float: right;
+        text-align: left; }
+        .calllayer .wrp-call .contacts .itemwrap .entity-wrp .contactdata * {
+          padding-bottom: 4px; }
+        .calllayer .wrp-call .contacts .itemwrap .entity-wrp .contactdata > div {
+          display: block;
+          width: 100%;
+          text-align: left; }
+        .calllayer .wrp-call .contacts .itemwrap .entity-wrp .contactdata .title a {
+          color: #98b0fe; }
+        .calllayer .wrp-call .contacts .itemwrap .entity-wrp .contactdata .manager {
+          background-color: none; }
+    .calllayer .wrp-call .contacts .itemwrap .comm-wrp {
+      width: 49.5%;
+      padding: 0 15px; }
+      .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype {
+        display: block;
+        padding-bottom: 5px; }
+        .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype .commtypetitle {
+          font-weight: bold;
+          display: block;
+          text-align: left; }
+        .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype .listcomm {
+          display: block;
+          padding-left: 15px;
+          text-align: left; }
+          .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype .listcomm .commdata {
+            background-color: none; }
+          .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype .listcomm .commtitle {
+            background-color: none; }
+      .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype {
+        background-color: none; }
+        .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype .commtypetitle {
+          background-color: none; }
+        .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype .listcomm {
+          background-color: none; }
+          .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype .listcomm .commdata {
+            background-color: none; }
+          .calllayer .wrp-call .contacts .itemwrap .comm-wrp .commtype .listcomm .commtitle {
+            background-color: none; }
+    .calllayer .wrp-call .comments {
+      background-color: none; }
+      .calllayer .wrp-call .comments textarea {
+        width: 70%;
+        color: black; }
+    .calllayer .wrp-call .footer {
+      background-color: none; }
+      .calllayer .wrp-call .footer .butt.save {
+        background-color: none;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px; }
+        .calllayer .wrp-call .footer .butt.save:hover {
+          box-shadow: 0 0 5px white; }
+
+/*# sourceMappingURL=style.css.map */
